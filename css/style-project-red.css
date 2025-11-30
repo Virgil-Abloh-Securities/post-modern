@@ -1,0 +1,827 @@
+/*
+Theme: Canary---yellow trojanhorse
+*/
+
+
+/*
+-------------------------------------------------------------------------------*/
+
+.project-red .badge-more {
+    border-color: #000;
+}
+
+
+
+/* 50 DOLLAR PROJECT RED
+-------------------------------------------------------------------------------*/
+header,
+.project-red {
+    background-color: #f00;
+    color: #000;
+}
+
+header .badge-more{
+    border-color: #000;
+}
+
+.project-red {
+    padding-bottom: 0;
+    padding-top: 10px;
+/*    margin-bottom: 20px;*/
+}
+
+.project-red a,
+.project-red a:link {
+    color: #000;
+}
+
+.logo{
+    filter: invert(0);
+    mix-blend-mode: multiply;
+}
+
+.project-red .logo {
+    filter: invert(0);
+}
+
+header .goto {
+    padding-top: 0;
+}
+header .goto .pill-button{
+    border: 1px solid #000;
+    background-color: #f00;
+    color: #000;
+}
+
+
+
+
+/* dollars wrapper
+-------------------------------------------------------------------------------*/
+
+.project-red .dollars-wrapper {
+    padding: 10px 5%;
+}
+
+.project-red .dollars-wrapper .title {
+    margin-bottom: 20px;
+}
+
+.project-red .donate-cta span,
+.project-red .donate-cta {
+    line-height: 1em;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 3vw;
+    cursor: pointer;
+
+}
+.project-red .donate-cta span {
+    border-bottom: 5px dashed #000;
+}
+
+.project-red .donate-mail {
+    line-height: 1em;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1vw;
+}
+.project-red .dollars-wrapper img {
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+
+
+
+/* 
+-------------------------------------------------------------------------------*/
+.project-red .cards {
+    margin-bottom: 20px;
+}
+
+.project-red .cards-wrapper {
+    text-align: center;
+}
+
+.project-red .cards-wrapper img {
+    height: 3vw;
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+    margin: 0 5px;
+}
+.project-red .cards-wrapper img:hover {
+    filter: grayscale(0);
+    mix-blend-mode: inherit;
+}
+
+
+/* 
+-------------------------------------------------------------------------------*/
+
+.project-red .claim,
+.project-red .claim div {
+    line-height: 1em;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.project-red .claim .big-font {
+    font-size: 9vw;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: -0.4vw;
+}
+
+
+/* 
+-------------------------------------------------------------------------------*/
+
+.subscription-wrapper {
+    position: absolute;
+    width: 400px;
+    padding: 1vw;
+    left: calc(100vw / 2 - 200px);
+    border: 1px solid #000;
+    background-color: #ff0000;
+    display: none;
+    z-index: 999;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000;
+    margin-top: -9vw;
+}
+.subscription-form {
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    display: block;
+}
+.subscription-close {
+    cursor: pointer;
+    margin-left: 125px;
+    position: relative;
+    margin-top: -60px;
+    margin-bottom: 25px;
+}
+
+
+/* 
+-------------------------------------------------------------------------------*/
+
+.project-red .description{
+    margin-top: 2vw;
+    padding: 0px 5%;
+}
+
+
+
+
+
+/* 
+-------------------------------------------------------------------------------*/
+
+
+.brands-inner {
+    text-align: center;
+    margin-top: 2vw;
+}
+.brands-inner .description {
+    margin-bottom: 1vw;
+} 
+
+.brands .claim {
+    margin-top: 2vw;
+    text-transform: uppercase;
+    padding: 0 14%;
+}
+.brands img {
+    height: 4vw;
+    margin: 0 5vw;
+    mix-blend-mode: multiply;
+}
+.brands img.farfetch {
+    height: 2vw;
+    margin-bottom: 1vw;
+}
+
+
+
+
+/* 
+-------------------------------------------------------------------------------*/
+.asterisk {
+    margin-top: 50px;
+    padding: 0 14%;
+}
+
+
+
+
+/* WINDOWS 
+-------------------------------------------------------------------------------*/
+.windows-box {
+    text-align: center;
+    position: absolute;
+    width: 21vw;
+    border-radius: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-origin: content-box;
+    top: 5vw;
+    right: 14vw;
+    border: 4px ridge;
+}
+.window-icons {
+    text-align: right;
+    padding: 2px;
+    background: rgb(51,78,165);
+    background: linear-gradient(90deg, rgba(51,78,165,1) 0%, rgba(76,127,193,1) 100%);
+}
+.window-icons img {
+    height: 0.9vw;
+    float: right;
+    margin-left: 0.1vw;
+}
+
+
+img.store-button {
+    height: 35px;
+    margin-top: 12vw;
+    margin-bottom: 5px;
+}
+
+
+
+/**/
+.windows-box.resize {
+    height: 100vh;
+    width: 50vw;
+    top: 0;
+    right: 0;
+}
+.windows-box.resize img.store-button {
+    margin-top: 90vh;
+}
+.windows-box.iconize {
+    height: inherit;
+    width: 21vw;
+}
+.windows-box.iconize a.prod-link-gallery {
+    display: none;
+}
+
+
+
+
+
+/****/
+.canary-box .canary-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.canary-box {
+/*    padding-bottom: 20px;*/
+    background-color: #fff;
+    position: absolute;
+    top: 26vw;
+    left: 2vw;
+    text-align: center;
+    border: 4px ridge;
+}
+.canary-box .window-content {
+    width: 430px;
+/*    height: 400px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.canary-box .window-content.image-v {
+    width: 430px;
+}
+.canary-box .window-content.image-h {
+    width: 550px;
+}
+
+.canary-box .window-content img {
+    display: block;
+}
+
+.close-canary {
+    position: absolute;
+    margin-left: 245px;
+    text-align: right;
+    margin-top: -21px;
+    cursor: pointer;
+}
+
+
+/**/
+.canary-box.resize {
+    height: 100vh;
+    width: 50vw;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.canary-box.resize .window-content {
+    width: 100% !important;
+}
+.canary-box.iconize {
+    height: inherit;
+}
+.canary-box.iconize.image-v {
+    width: 438px;
+}
+.canary-box.iconize.image-h {
+    width: 558px;
+}
+
+
+.canary-box.iconize .window-content {
+    display: none;
+}
+.canary-box.iconize .canary-title {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/****/
+.fashion-box .canary-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fashion-box {
+/*    padding-bottom: 20px;*/
+    background-color: #fff;
+    position: absolute;
+    top: 34vw;
+    right: 26vw;
+    text-align: center;
+    border: 4px ridge;
+}
+.fashion-box .link-wrapper {
+    padding: 0 10px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.project-red .fashion-box .content-title {
+    padding-top: 5px;
+}
+.project-red .fashion-box .link-wrapper a {
+    color: blue;
+    text-decoration: underline;
+}
+.fashion-box .window-content {
+    width: 360px;
+/*    height: 400px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+        padding: 10px;
+}
+
+.fashion-box .window-content img {
+    display: block;
+}
+
+.close-canary {
+    position: absolute;
+    margin-left: 245px;
+    text-align: right;
+    margin-top: -21px;
+    cursor: pointer;
+}
+
+
+/**/
+.fashion-box.resize {
+    height: 100vh;
+    width: 50vw;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.fashion-box.resize .window-content {
+    width: 100% !important;
+}
+.fashion-box.iconize {
+    height: inherit;
+}
+.fashion-box.iconize.image-v {
+    width: 438px;
+}
+.fashion-box.iconize.image-h {
+    width: 558px;
+}
+
+
+.fashion-box.iconize .window-content {
+    display: none;
+}
+.fashion-box.iconize .canary-title {
+    display: none;
+}
+
+
+
+
+
+/****/
+.freegame-box .canary-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.freegame-box {
+/*    padding-bottom: 20px;*/
+    background-color: #fff;
+    position: absolute;
+    top: 47vw;
+    right: 10vw;
+    text-align: center;
+    border: 4px ridge;
+}
+.freegame-box .window-content {
+    width: 430px;
+/*    height: 400px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+        padding: 10px;
+}
+.freegame-box .window-content.image-v {
+    width: 430px;
+}
+.freegame-box .window-content.image-h {
+    width: 550px;
+}
+
+.freegame-box .window-content img {
+    display: block;
+}
+
+.close-canary {
+    position: absolute;
+    margin-left: 245px;
+    text-align: right;
+    margin-top: -21px;
+    cursor: pointer;
+}
+
+
+/**/
+.freegame-box.resize {
+    height: 100vh;
+    width: 50vw;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.freegame-box.resize .window-content {
+    width: 100% !important;
+}
+.freegame-box.iconize {
+    height: inherit;
+}
+.freegame-box.iconize.image-v {
+    width: 438px;
+}
+.freegame-box.iconize.image-h {
+    width: 558px;
+}
+
+
+.freegame-box.iconize .window-content {
+    display: none;
+}
+.freegame-box.iconize .canary-title {
+    display: none;
+}
+
+
+
+
+
+
+/* 
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 960px) {
+    
+
+    .project-red {
+        padding-bottom: 10px;
+    }
+    
+    .project-red .dollars-wrapper { 
+        padding: 10px;
+    }
+    .project-red .dollars-wrapper .title {
+        margin-bottom: 5vw;
+    }
+
+
+    .project-red .donate-cta {
+        line-height: 1em;
+        font-size: 10vw;
+        font-weight: 700;
+        font-family: sans-serif;
+        padding-top: 2.5vw;
+        margin-bottom: 20px;
+    }
+    .project-red .donate-cta span {
+        font-size: 10vw;
+        font-weight: 700;
+        font-family: sans-serif;
+        line-height: 1.3em;
+        border-bottom: 5px dashed #000;
+    }
+    .project-red .donate-mail {
+        font-size: 10vw;
+        padding-top: 2.5vw;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    
+    .project-red .cards {
+        margin-bottom: 5vw;
+    }
+    .project-red .cards-wrapper img {
+        height: 10vw;
+    }
+    
+    
+    
+    
+    .project-red .claim {
+        line-height: 1em;
+        font-size: 10vw;
+        padding: 0 10px;
+        margin-bottom: 2vw;
+    }
+    .project-red .claim .big-font {
+        font-size: 10vw;
+        line-height: 1em;
+        font-weight: 700;
+        letter-spacing: 0vw;
+    }
+    .project-red .brands .claim div {
+        font-size: 10vw;
+    }
+    
+    
+    /***/
+    .subscription-wrapper {
+        width: calc(100% - 20px);
+        left: 10px;
+    }
+    .subscription-form {
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60vw;
+    }
+    .subscription-close {
+        padding-left: 100px;
+        margin-top: -33px;
+        margin-bottom: 25px;
+    }
+    
+
+    /***/
+
+    
+    
+    .project-red .description {
+        margin-top: 2vw;
+        padding: 0px 10%;
+    }
+    
+    .brands img {
+       height: 16vw;
+        margin: 0 10px;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .brands img.offwhite {
+        height: 12.5vw;
+    }
+    .brands img.farfetch {
+        height: 6.5vw;
+        margin-bottom: 0.5vw;
+    }
+    
+    
+    /* WINDOWS 
+    -------------------------------------------------------------------------------*/
+    .windows-box {
+        text-align: center;
+        position: inherit;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .window-icons {
+        text-align: right;
+        padding: 2px;
+        background: rgb(51,78,165);
+        background: linear-gradient(90deg, rgba(51,78,165,1) 0%, rgba(76,127,193,1) 100%);
+    }
+    .window-icons img {
+        height: 15px;
+        float: right;
+        margin-left: 3px;
+    }
+
+
+    img.store-button {
+        margin-top: 60vw;
+    }
+
+
+
+    
+    /**/
+    .windows-box.resize,
+    .windows-box.iconize {
+        height: inherit;
+        width: calc(100% - 20px);
+    }
+    .windows-box.resize a.prod-link-gallery,
+    .windows-box.iconize a.prod-link-gallery {
+        display: none;
+    }
+
+
+
+
+    .canary-box .canary-title{
+        margin-bottom: 5px;
+    }
+    .canary-box {
+        background-color: #fff;
+        position: inherit;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+    }
+    .canary-box .window-content,
+    .canary-box .window-content.image-h,
+    .canary-box .window-content.image-v {
+        width: 100%;
+    }
+    
+
+    .close-canary {
+        position: absolute;
+        margin-left: 245px;
+        text-align: right;
+        margin-top: -21px;
+        cursor: pointer;
+    }
+    
+    
+    
+
+    .canary-box.resize,
+    .canary-box.iconize,
+    .canary-box.iconize.image-h,
+    .canary-box.iconize.image-v {
+        height: inherit;
+        width: calc(100% - 20px);
+    }
+
+    .canary-box.resize .window-content,
+    .canary-box.iconize .window-content {
+        display: none;
+    }
+    .canary-box.resize .canary-title,
+    .canary-box.iconize .canary-title {
+        display: none;
+    }
+
+    
+    
+
+
+/*******************/
+    .fashion-box .canary-title{
+        margin-bottom: 5px;
+    }
+    .fashion-box {
+        background-color: #fff;
+        position: inherit;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+            margin-top: 10px;
+    }
+    .fashion-box .window-content,
+    .fashion-box .window-content.image-h,
+    .fashion-box .window-content.image-v {
+        width: 100%;
+    }
+    
+
+    .close-canary {
+        position: absolute;
+        margin-left: 245px;
+        text-align: right;
+        margin-top: -21px;
+        cursor: pointer;
+    }
+    
+    
+    
+
+    .fashion-box.resize,
+    .fashion-box.iconize,
+    .fashion-box.iconize.image-h,
+    .fashion-box.iconize.image-v {
+        height: inherit;
+        width: calc(100% - 20px);
+    }
+
+    .fashion-box.resize .window-content,
+    .fashion-box.iconize .window-content {
+        display: none;
+    }
+    .fashion-box.resize .canary-title,
+    .fashion-box.iconize .canary-title {
+        display: none;
+    }
+
+
+    
+    
+
+/*******************/
+    .freegame-box .canary-title{
+        margin-bottom: 5px;
+    }
+    .freegame-box {
+        background-color: #fff;
+        position: inherit;
+        width: calc(100% - 20px);
+        margin-left: 10px;
+            margin-top: 10px;
+    }
+    .freegame-box .window-content,
+    .freegame-box .window-content.image-h,
+    .freegame-box .window-content.image-v {
+        width: 100%;
+    }
+    
+
+    .close-canary {
+        position: absolute;
+        margin-left: 245px;
+        text-align: right;
+        margin-top: -21px;
+        cursor: pointer;
+    }
+    
+    
+    
+
+    .freegame-box.resize,
+    .freegame-box.iconize,
+    .freegame-box.iconize.image-h,
+    .freegame-box.iconize.image-v {
+        height: inherit;
+        width: calc(100% - 20px);
+    }
+
+    .freegame-box.resize .window-content,
+    .freegame-box.iconize .window-content {
+        display: none;
+    }
+    .freegame-box.resize .canary-title,
+    .freegame-box.iconize .canary-title {
+        display: none;
+    }
+
+
+    
+    
+
+    
+    
+    
+        
+} 
